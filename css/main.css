@@ -1,9 +1,18 @@
+/*custom*/
+.pre-registration {
+	margin-top: 2em;
+}
+
+.price {
+	font-size: 14px;
+}
+
 /*neutral*/
 * {
 	font-family: 'karla', sans-serif;
 }.footer,
 .header {
-	background: #ABA0CB;
+	background: #111;
 	color: white;
 }
 .ctas-button {
