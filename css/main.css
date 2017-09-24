@@ -1,3 +1,80 @@
+/*signup form*/
+#mc_embed_signup {
+	background: none !important;
+}
+
+.input-group ul {
+	list-style: none !important;
+}
+
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+ font-size: 0.75em;
+ color: #a9a9a9;
+ top: -2.25rem;
+ -webkit-transition: all 0.125s ease;
+ transition: all 0.125s ease;
+}
+
+.styled-input {
+  width: 250px;
+  margin: 2rem 0 1rem;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.styled-input label {
+  color: #999;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.styled-input.wide { width: 100%; }
+
+input,
+textarea {
+  padding: 1rem 1rem;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 3px;
+}
+
+input ~ span,
+textarea ~ span {
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #a9a9a9;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: all 0.125s ease;
+  transition: all 0.125s ease;
+  border-radius: 3px;
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+  border-radius: 3px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 15em;
+}
+
 /*custom*/
 .pre-registration {
 	margin-top: 2em;
@@ -5,6 +82,18 @@
 
 .price {
 	font-size: 14px;
+}
+
+.form-submit {
+	width: 250px;
+}
+
+.form-submit:hover {
+	background-color: #757575;
+}
+
+.copyright {
+	font-size: 10px;
 }
 
 /*neutral*/
