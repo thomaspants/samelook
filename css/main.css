@@ -104,6 +104,12 @@ textarea {
 	padding-bottom: 15px !important;
 }
 
+.faq {
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	color: #ffffff;
+}
+
 /*neutral*/
 * {
 	font-family: 'karla', sans-serif;
@@ -160,7 +166,7 @@ body {
   margin-top: 10px;
 }
 p.paragraph {
-  color: rgba(0,0,0,.5);
+  color: #ffffff;
 }
 .logo {
   font-size: 30px;
@@ -432,7 +438,10 @@ p.paragraph {
 	.ctas-button {
 		margin: 10px 0 0 0;
 	}
-}.feature6 {
+}
+
+.feature6 {
 	padding: 90px 0;
-	border-bottom: 1px solid rgba(0,0,0,.1)
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	color: #ffffff;
 }
