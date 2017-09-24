@@ -96,6 +96,14 @@ textarea {
 	font-size: 10px;
 }
 
+.thank-you-footer {
+	padding-top: 0 !important;
+}
+
+.thank-you-header {
+	padding-bottom: 15px !important;
+}
+
 /*neutral*/
 * {
 	font-family: 'karla', sans-serif;
@@ -115,6 +123,7 @@ textarea {
 }
 body {
   -webkit-font-smoothing: antialiased;
+  background-color: #111;
 }
 /*text*/
 .heading {
