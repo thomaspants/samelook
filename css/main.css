@@ -215,6 +215,7 @@ textarea {
 .copyright {
 	font-size: 10px;
 	margin-top: 2em;
+	font-weight: 400;
 }
 
 .thank-you-footer {
@@ -316,13 +317,20 @@ p.paragraph {
 .nav-link2,
 .nav-link {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
+  font-weight: 600;
   color: inherit;
 }
 .nav-link:not(:first-of-type) {
   margin-left: 20px;
 }
+.nav-link2:hover,
+.nav-link:hover {
+  font-weight: 800;
+  text-decoration: none;
+}
+
 .text-center {
   text-align: center;
 }
