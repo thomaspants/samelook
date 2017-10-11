@@ -1,3 +1,27 @@
+/*bootstrap override*/
+.navbar-nav {
+	float: right !important;
+}
+
+.navbar-inverse {
+	background-color: #182c38 !important;
+	border: none !important;
+}
+
+.navbar-header {
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+.navbar-header {
+    float: none !important;
+}
+}
+
+.navbar-toggle {
+	display: none !important;
+}
+
 /*signup form*/
 #mc_embed_signup {
 	background: none !important;
@@ -10,7 +34,7 @@
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
  font-size: 0.75em;
  color: #a9a9a9;
- top: -2.25rem;
+ top: -2.75rem;
  -webkit-transition: all 0.125s ease;
  transition: all 0.125s ease;
 }
@@ -42,7 +66,7 @@ textarea {
   border: 0;
   width: 100%;
   font-size: 1rem;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 
 input ~ span,
@@ -76,6 +100,12 @@ textarea {
 }
 
 /*custom*/
+.topLogo {
+	height: 40px;
+	margin-top: .7em;
+	margin-bottom: .7em;
+}
+
 .pre-registration {
 	margin-top: 2em;
 }
@@ -85,15 +115,106 @@ textarea {
 }
 
 .form-submit {
-	width: 250px;
+	
 }
 
 .form-submit:hover {
 	background-color: #757575;
 }
 
+.how-it-works {
+	overflow: auto;
+	text-align: center;
+	margin-bottom: 4em;
+	margin-top: 3em;
+}
+
+.how-it-works-title {
+	
+}
+
+.how-it-works-img {
+	height: 100px;
+	margin-top: 3em;
+}
+
+.how-it-works p {
+	width: 80%;
+    margin-left: 10%;
+    margin-top: 1em;
+}
+
+.bottom-cta {
+	background-image:url('../img/pants-pattern-1.png');
+	color: white;
+	
+}
+
+.bottom-cta h3 {
+	margin-bottom: 3em;
+}
+
+.sign-up-row {
+	padding-top: 6em;
+    padding-bottom: 8em;
+    height: 24em;
+
+}
+
+.email {
+	color: black !important;
+}
+
+.cta-btn {
+	background: linear-gradient(rgba(255, 255, 255, .6), rgba(255, 255, 255, .6));
+    padding: 15px 100px 15px 100px;
+    color: white;
+    border: 3px solid white;
+    padding-right: 0;
+    padding-left: 0;
+    width: 250px;
+    font-weight: 600;
+}
+
+.cta-btn:hover {
+	text-decoration: none;
+	color: white;
+	background: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .4));
+}
+
+.bottom-cta a {
+	background: linear-gradient(rgba(255, 255, 255, .6), rgba(255, 255, 255, .6));
+    color: white;
+    border: 3px solid white;
+    padding: 18px 90px 18px 90px;
+    width: 250px;
+}
+
+.bottom-cta a:hover {
+	text-decoration: none;
+	color: white;
+	background: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .4));
+}
+
+.bottom-nav {
+	background-color: #182c38;
+	color: white;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.bottom-nav a:hover {
+	color: white;
+}
+
+.bottom-nav p {
+	margin-top: 2.5em;
+	margin-bottom: 2em;
+}
+
 .copyright {
 	font-size: 10px;
+	margin-top: 2em;
 }
 
 .thank-you-footer {
@@ -113,11 +234,23 @@ textarea {
 /*neutral*/
 * {
 	font-family: 'karla', sans-serif;
-}.footer,
-.header {
-	background: #111111;
+}.footer {
+	background: #182c38;
 	color: white;
 }
+
+.footer p {
+	margin-top: 2em;
+}
+
+.header {
+	background-image: linear-gradient(rgba(24, 44, 56, .6), rgba(24, 44, 56, .6)),
+	url('../img/samelook-bg.jpg');
+    background-repeat: repeat;
+    color:white;
+    width: 100%;
+}
+
 .ctas-button {
 	color: #444;
 }@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
@@ -129,7 +262,7 @@ textarea {
 }
 body {
   -webkit-font-smoothing: antialiased;
-  background-color: #111;
+  background-color: #fafafa;
 }
 /*text*/
 .heading {
@@ -172,6 +305,8 @@ p.paragraph {
   font-size: 30px;
   line-height: 30px;
   font-weight: 900;
+  text-decoration: none;
+  color: #ffffff;
 }
 @media (max-width: 420px) {
   .logo {
@@ -299,7 +434,7 @@ p.paragraph {
 }.ctas-input {
 	outline: none;
 	border: none;
-	border-radius: 3px;
+	border-radius: 0px;
 	font-size: 15px;
 	height: 40px;
 	line-height: 40px;
@@ -314,7 +449,7 @@ p.paragraph {
 	line-height: 38px;
 	padding: 0 30px;
 	background: #fff;
-	border-radius: 3px;
+	border-radius: 0px;
 	font-size: 15px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -352,7 +487,7 @@ p.paragraph {
 	line-height: 38px;
 	padding: 0 30px;
 	background: #fff;
-	border-radius: 3px;
+	border-radius: 0px;
 	font-size: 15px;
 	font-weight: 600;
 	text-transform: uppercase;
