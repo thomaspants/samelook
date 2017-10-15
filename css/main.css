@@ -18,8 +18,29 @@
 }
 }
 
+
 .navbar-toggle {
 	display: none !important;
+}
+
+/*about*/
+.about-title {
+	color: #182c38;
+}
+
+.about-paragraph {
+	color: #182c38 !important;
+	margin-top: 10px !important;
+}
+
+.about-header {
+	background: none !important;
+	padding-bottom: 20px !important;
+}
+
+.about-link {
+	text-decoration: underline;
+	color: #182c38;
 }
 
 /*signup form*/
@@ -104,6 +125,11 @@ textarea {
 	height: 40px;
 	margin-top: .7em;
 	margin-bottom: .7em;
+}
+
+.brandName {
+	margin-top: -7px;
+	margin-bottom: 5px;
 }
 
 .pre-registration {
@@ -319,7 +345,7 @@ p.paragraph {
   text-decoration: none;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 400;
   color: inherit;
 }
 .nav-link:not(:first-of-type) {
@@ -414,7 +440,7 @@ p.paragraph {
 	overflow: hidden;
 }
 .header .heading {
-	margin: 120px 0 0 0;
+	margin: 140px 0 0 0;
 }
 .header .sidedevices {
 	margin: 120px 0 0;
@@ -424,7 +450,7 @@ p.paragraph {
 		flex-direction: column;
 	}
 	.header .heading {
-		margin-top: 60px;
+		margin-top: 120px;
 	}
 	.header .paragraph {
 		margin-top: 30px;
@@ -519,7 +545,7 @@ p.paragraph {
 		margin: 10px 0 0 0;
 	}
 }.footer {
-	padding: 90px 0 45px;
+	padding: 10px 0 45px;
 }
 .footer-nav {
 	padding-top: 90px;
