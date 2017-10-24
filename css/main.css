@@ -252,6 +252,10 @@ textarea {
 	padding-bottom: 15px !important;
 }
 
+.pre-registration h2 {
+	padding-bottom: 125px;
+}
+
 .faq {
 	padding: 20px 0;
 	border-bottom: 1px solid rgba(0,0,0,.1);
